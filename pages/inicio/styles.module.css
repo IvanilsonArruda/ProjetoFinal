@@ -1,0 +1,55 @@
+.container{
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+.background{
+    z-index: 0;
+
+}
+
+.texto{
+    width: 380px;
+    height: 300px;
+    background-color: #000000aa;
+    z-index: 1;
+    color: #eaeaea;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.texto label{
+    font-size: 28px;
+}
+
+.form{
+    height: 681px;
+    display: flex;
+}
+
+.input{
+    border-style: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+
+}
+.input::placeholder{
+    padding: 10px;
+}
